@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa&family=Source+Sans+Pro&display=swap');
+@import "css/home.css";
+@import "css/recover.css";
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  height: 100vh;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  }
+
+main{
+  height: 100%;
+}
+
+header{
+  height: 50px;
+}
+
+footer{
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 0.7em;
+  background: #000;
+  height: 50px;
+  border-top: 3px solid #FFFFFF;
+}
+
+
+h2{
+  font-family: Comfortaa;
+  font-size: 1.2em;
+}
+
+label{
+  font-family: Source Sans Pro;
+}
+
+input{
+  text-align: center;
+  height: 30px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.btn{
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  background: #06B8C7;
+  border: 2px solid #06B8C7;
+  border-radius: 6px;
+  font-family: 'Comfortaa';
+  color: #FFFFFF;
+
+}
+
+@media (min-width: 1000px){
+  footer{
+    height: 70px;
+    font-size: 1em;
+  }
+}
